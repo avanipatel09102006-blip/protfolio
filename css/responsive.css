@@ -1,0 +1,533 @@
+/* ====================================
+   PortfolioPro - Responsive CSS
+==================================== */
+
+
+/* ====================================
+   Large Tablets
+==================================== */
+
+@media (max-width: 1100px){
+
+    .navbar{
+        width:92%;
+    }
+
+    .hero{
+        padding-left:6%;
+        padding-right:6%;
+        gap:40px;
+    }
+
+    .hero-text h1{
+        font-size:52px;
+    }
+
+    .hero-image img{
+        width:340px;
+    }
+
+    .about{
+        gap:40px;
+    }
+
+    .about-image img{
+        width:330px;
+    }
+
+}
+
+
+/* ====================================
+   Tablets
+==================================== */
+
+@media (max-width: 900px){
+
+    section{
+        padding:80px 6%;
+    }
+
+
+    /* Navbar */
+
+    .navbar{
+        padding:18px 0;
+    }
+
+    .nav-links{
+        gap:20px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    .navbar > .btn{
+        padding:10px 18px;
+        font-size:13px;
+    }
+
+
+    /* Hero */
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        justify-content:center;
+        padding-top:140px;
+        gap:45px;
+    }
+
+    .hero-text{
+        max-width:700px;
+    }
+
+    .hero-text h1{
+        font-size:50px;
+    }
+
+    .hero-text h2{
+        font-size:24px;
+    }
+
+    .buttons{
+        justify-content:center;
+    }
+
+    .social{
+        justify-content:center;
+    }
+
+    .hero-image img{
+        width:300px;
+    }
+
+
+    /* About */
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:300px;
+        margin:auto;
+    }
+
+    .about-content{
+        max-width:700px;
+    }
+
+    .about-content h2{
+        font-size:38px;
+    }
+
+
+    /* Contact */
+
+    .contact-container{
+        grid-template-columns:1fr;
+        max-width:700px;
+    }
+
+}
+
+
+/* ====================================
+   Mobile
+==================================== */
+
+@media (max-width: 650px){
+
+    section{
+        padding:70px 5%;
+    }
+
+
+    /* Navbar */
+
+    .navbar{
+        width:92%;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .nav-links{
+        order:3;
+        width:100%;
+        justify-content:center;
+        gap:15px;
+        flex-wrap:wrap;
+    }
+
+    .nav-links a{
+        font-size:13px;
+    }
+
+    .navbar > .btn{
+        padding:9px 15px;
+    }
+
+
+    /* Hero */
+
+    .hero{
+        padding-top:170px;
+    }
+
+    .hero-text h3{
+        font-size:19px;
+    }
+
+    .hero-text h1{
+        font-size:40px;
+    }
+
+    .hero-text h2{
+        font-size:20px;
+    }
+
+    .hero-text p{
+        font-size:14px;
+    }
+
+    .hero-image img{
+        width:240px;
+        border-width:6px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+    }
+
+    .buttons .btn{
+        width:200px;
+        text-align:center;
+    }
+
+
+    /* Section Titles */
+
+    .section-title{
+        font-size:32px;
+    }
+
+    .section-subtitle{
+        font-size:14px;
+    }
+
+
+    /* About */
+
+    .about-image img{
+        width:240px;
+    }
+
+    .about-content h2{
+        font-size:32px;
+    }
+
+    .about-content h3{
+        font-size:19px;
+    }
+
+    .about-content p{
+        font-size:14px;
+    }
+
+
+    /* Skills */
+
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+
+    .skill-card{
+        padding:28px 20px;
+    }
+
+    .skill-card i{
+        font-size:50px;
+    }
+
+
+    /* Projects */
+
+    .project-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-image{
+        height:200px;
+    }
+
+    .project-content{
+        padding:25px;
+    }
+
+    .project-content h3{
+        font-size:23px;
+    }
+
+    .project-links{
+        flex-direction:column;
+    }
+
+    .project-btn{
+        justify-content:center;
+    }
+
+
+    /* Contact */
+
+    .contact-container{
+        gap:30px;
+    }
+
+    .contact-info,
+    .contact-form{
+        padding:25px;
+    }
+
+    .contact-info h3{
+        font-size:25px;
+    }
+
+
+    /* Footer */
+
+    footer{
+        padding:40px 15px;
+    }
+
+    .footer-logo{
+        font-size:25px;
+    }
+
+}
+
+
+/* ====================================
+   Small Mobile
+==================================== */
+
+@media (max-width: 400px){
+
+    .hero-text h1{
+        font-size:34px;
+    }
+
+    .hero-text h2{
+        font-size:18px;
+    }
+
+    .hero-image img{
+        width:210px;
+    }
+
+    .nav-links{
+        gap:10px;
+    }
+
+    .nav-links a{
+        font-size:12px;
+    }
+
+    .section-title{
+        font-size:28px;
+    }
+
+}
+/* ====================================
+   Resume Responsive
+==================================== */
+
+@media (max-width: 900px) {
+
+    .project-container {
+        grid-template-columns: 1fr;
+        max-width: 700px;
+    }
+
+    .resume-container {
+        grid-template-columns: 1fr;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .resume-highlights {
+        text-align: left;
+    }
+
+    .resume-buttons {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .project-image {
+        height: 220px;
+    }
+
+    .project-content {
+        padding: 25px;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .project-btn {
+        width: 100%;
+    }
+
+    .resume-section {
+        padding: 70px 5%;
+    }
+
+    .resume-content h2 {
+        font-size: 34px;
+    }
+
+    .resume-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .resume-paper {
+        width: 270px;
+        min-height: 350px;
+    }
+
+}
+/* ====================================
+   Mobile Hamburger Menu
+==================================== */
+
+.menu-toggle {
+    display: none;
+
+    border: none;
+    background: transparent;
+
+    color: #ffffff;
+
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+
+/* Tablet & Mobile */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        position: fixed;
+
+        flex-wrap: wrap;
+
+        padding: 15px 5%;
+
+        width: 100%;
+
+        border-radius: 0;
+    }
+
+
+    .menu-toggle {
+        display: block;
+
+        margin-left: auto;
+    }
+
+
+    .navbar > .btn {
+        display: none;
+    }
+
+
+    .nav-links {
+        display: none;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 0;
+
+        padding: 15px 0;
+
+        background: #0f172a;
+    }
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+
+    .nav-links li {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .nav-links a {
+        display: block;
+
+        width: 100%;
+
+        padding: 12px;
+
+        font-size: 14px;
+    }
+
+
+    .nav-links a:hover {
+        background: rgba(56, 189, 248, 0.1);
+    }
+
+}
+/* ====================================
+   About Responsive
+==================================== */
+
+@media (max-width: 768px) {
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+
+    .about-highlight {
+        padding: 14px;
+    }
+
+}
